@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">评价系统</string>
+    <string name="hello_world">你好!</string>
+    <string name="action_settings">设置</string>
+    
+<!--     <string name="title_name">南京市公共资源交易中心  服务评价系统</string> -->
+<!--     <string name="title_name">江北新区政务服务中心  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区迈皋桥街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区八卦洲街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区马群街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区尧化门街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区龙潭街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区栖霞街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区西岗街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区燕子矶街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市栖霞区仙林街道  服务评价系统</string> -->
+<!--     <string name="title_name">南京市建邺区政务服务中心  服务评价系统</string> -->
+<!--     <string name="title_name">南京市浦口区政务服务中心  服务评价系统</string> -->
+<!--     <string name="title_name">南京市六合区便民服务中心 服务评价系统</string> -->
+    <string name="title_name">雨花台区政务服务中心 服务评价系统</string>
+    
+    <string name="windowid_label">窗口编号：</string>
+    <string name="WindowName_label">窗口名称：</string>
+    <string name="Department_label">部门名称：</string>
+
+    <string name="confirm_y">确认</string>
+    <string name="confirm_n">不确认</string>
+
+    <string name="evaluation_title">请您对工作人员的服务进行评价</string>
+    <string name="evaluation_notify">您对工作人员的评价是：</string>
+    <string name="evaluation_1">非常不满意</string>
+    <string name="evaluation_2">不满意</string>
+    <string name="evaluation_3">基本满意</string>
+    <string name="evaluation_4">满意</string>
+    <string name="evaluation_5">非常满意</string>
+    <string name="evaluation_confirm">确定</string>
+    <string name="evaluation_success">评价成功</string>
+
+</resources>

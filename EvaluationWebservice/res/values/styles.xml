@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="LinearLayoutStyleHead">
+<!--         <item name="android:background">@drawable/bg_nanjing</item> -->
+<!--         <item name="android:background">@drawable/bg_blue</item> -->
+        <item name="android:background">@drawable/bg_jianye</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewBaseStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextViewStyleTitle" parent="TextViewBaseStyle">
+        <item name="android:textSize">48sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextViewStyleMiddle" parent="TextViewBaseStyle">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="TextViewStyleLarge" parent="TextViewBaseStyle">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="ButtonBaseStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="ButtonStyleConfirm" parent="ButtonBaseStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="ButtonStyleMiddle" parent="ButtonBaseStyle">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutStyleHead"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        style="@style/TextViewStyleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_textview_height_middle"
+        android:text="@string/title_name" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/notify"
+            style="@style/TextViewStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/evaluation_success"
+            android:visibility="gone" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/evl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <Button
+                    android:id="@+id/evaluation_bt"
+                    style="@style/ButtonStyleConfirm"
+                    android:layout_width="@dimen/activity_button_width_middle"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/evaluation_confirm"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/TextViewStyleMiddle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="14dp"
+                        android:layout_marginTop="14dp"
+                        android:text="@string/evaluation_notify" />
+
+                    <TextView
+                        android:id="@+id/evaluation_tv"
+                        style="@style/TextViewStyleLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="14dp"
+                        android:layout_marginTop="14dp"
+                        android:textColor="@android:color/holo_red_light" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="5" >
+
+                <Button
+                    android:id="@+id/evl05"
+                    style="@style/ButtonStyleMiddle"
+                    android:layout_width="@dimen/activity_button_width_long"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/evaluation_5" />
+
+                <Button
+                    android:id="@+id/evl04"
+                    style="@style/ButtonStyleMiddle"
+                    android:layout_width="@dimen/activity_button_width_long"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/evaluation_4" />
+
+                <Button
+                    android:id="@+id/evl03"
+                    style="@style/ButtonStyleMiddle"
+                    android:layout_width="@dimen/activity_button_width_long"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/evaluation_3" />
+
+                <Button
+                    android:id="@+id/evl02"
+                    style="@style/ButtonStyleMiddle"
+                    android:layout_width="@dimen/activity_button_width_long"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/evaluation_2" />
+
+                <Button
+                    android:id="@+id/evl01"
+                    style="@style/ButtonStyleMiddle"
+                    android:layout_width="@dimen/activity_button_width_long"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/evaluation_1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

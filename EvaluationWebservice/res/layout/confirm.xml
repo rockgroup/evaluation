@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutStyleHead"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        style="@style/TextViewStyleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_textview_height_middle"
+        android:text="@string/title_name" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/confirmY"
+            style="@style/ButtonStyleConfirm"
+            android:layout_width="@dimen/activity_button_width_middle"
+            android:layout_height="@dimen/activity_button_height_middle"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="4dp"
+            android:text="@string/confirm_y" />
+
+        <Button
+            android:id="@+id/confirmN"
+            style="@style/ButtonStyleConfirm"
+            android:layout_width="@dimen/activity_button_width_middle"
+            android:layout_height="@dimen/activity_button_height_middle"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="4dp"
+            android:text="@string/confirm_n" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/confirmInfo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </WebView>
+
+</LinearLayout>
